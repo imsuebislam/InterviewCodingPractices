@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.496">
+    <testcase classname="Check the World population info Functionality" name="User want to get the World population info" time="1.001">
+        <failure message="com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;" type="java.lang.NoSuchMethodError">
+            <![CDATA[Given User want to open Worldometers.info...................................failed
+When User will get World current Population.................................skipped
+And User will get Today world Population....................................skipped
+And User will get This Year World Population................................skipped
+Then User will check current population growth per second...................skipped
+And check the Page Title....................................................skipped
+
+StackTrace:
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at StepsDefinitions.WorldPopulationStep.user_want_to_open_worldometers_info(WorldPopulationStep.java:23)
+	at ✽.User want to open Worldometers.info(file:///C:/BFS/Eclipse_Workspace/CucumberJourney/src/test/resources/Features/WorldPopulatio.feature:5)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
